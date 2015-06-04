@@ -9,7 +9,7 @@ inc:
   company:      TechKnox
   url:          http://techknox.github.io/
   slack:        https://techknox.slack.com/
-  about_link:   http://techknox.github.io/about/
+  about_link:   http://techknox.github.io/
 
   # Comments
   disqus:
@@ -82,20 +82,24 @@ kramdown:
 redcloth:
   hard_breaks: true
 
+sass:
+  sass_dir: _scss
+  style:    :compressed
+
 #
 # jekyll-assets: see more at https://github.com/ixti/jekyll-assets
 #
-assets:
-
-  dirname: assets
-  baseurl: /assets/
-  sources:
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/images
-  js_compressor: uglifier
-  css_compressor: sass
-  cachebust: none
-  cache: false
-  gzip: [ text/css, application/javascript ]
-  debug: false
+# assets:
+#
+#   dirname: assets
+#   baseurl: /assets/
+#   sources:
+#     - _assets/javascripts
+#     - _assets/stylesheets
+#     - _assets/images
+#   js_compressor: uglifier
+#   css_compressor: sass
+#   cachebust: none
+#   cache: false
+#   gzip: [ text/css, application/javascript ]
+#   debug: false
