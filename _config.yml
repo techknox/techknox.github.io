@@ -20,16 +20,11 @@ inc:
   analytics:
     google: false # Add tracking code in _includes/_google-analytics.html
 
-  # Google Fonts
-  # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
   google_font: 'Droid+Sans:400,700'
-  
-  # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://incorporated.sendtoinc.com
+url:         http://techknox.github.io
 source:      .
 destination: ./_site
-plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
 exclude:     []
@@ -39,13 +34,13 @@ timezone:    nil
 future:      false
 show_drafts: nil
 limit_posts: 0
-highlighter:    pygments
+highlighter: pygments
 
 relative_permalinks: true
 
 permalink:     pretty
 paginate_path: 'page:num'
-paginate: 10
+paginate:      10
 
 markdown:      kramdown
 
@@ -64,20 +59,20 @@ redcarpet:
   extensions: []
 
 kramdown:
-  auto_ids: true
-  footnote_nr: 1
+  auto_ids:      true
+  footnote_nr:   1
   entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  use_coderay: false
+  toc_levels:    1..6
+  smart_quotes:  lsquo,rsquo,ldquo,rdquo
+  use_coderay:   false
 
   coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
+    coderay_wrap:               div
+    coderay_line_numbers:       inline
     coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
+    coderay_tab_width:          4
+    coderay_bold_every:         10
+    coderay_css:                style
 
 redcloth:
   hard_breaks: true
@@ -85,21 +80,3 @@ redcloth:
 sass:
   sass_dir: _scss
   style:    :compressed
-
-#
-# jekyll-assets: see more at https://github.com/ixti/jekyll-assets
-#
-# assets:
-#
-#   dirname: assets
-#   baseurl: /assets/
-#   sources:
-#     - _assets/javascripts
-#     - _assets/stylesheets
-#     - _assets/images
-#   js_compressor: uglifier
-#   css_compressor: sass
-#   cachebust: none
-#   cache: false
-#   gzip: [ text/css, application/javascript ]
-#   debug: false
