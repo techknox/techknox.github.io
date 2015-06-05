@@ -1,7 +1,7 @@
 inc:
   # Blog Information
-  title:        "Tech Knoxville"
-  subtitle:     "Knoxville Technologiest"
+  title:        ""
+  subtitle:     "A Community of Knoxville Technologists"
   cover_image:  banner.png
   logo:         logo.png
 
