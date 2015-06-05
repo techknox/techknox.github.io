@@ -9,14 +9,14 @@ inc:
   company:      TechKnox
   url:          http://techknox.github.io/
   slack:        https://techknox.slack.com/
-  about_link:   http://techknox.github.io/
+  about_link:   /about
 
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
     shortname:  false
 
-  # Analytics     
+  # Analytics
   analytics:
     google: false # Add tracking code in _includes/_google-analytics.html
 
